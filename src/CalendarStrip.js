@@ -590,7 +590,7 @@ class CalendarStrip extends Component {
           }
 
           <View style={styles.datesStrip}>
-//             <WeekSelector
+{/* //             <WeekSelector
 //               controlDate={this.props.minDate}
 //               iconComponent={this.props.leftSelector}
 //               iconContainerStyle={this.props.iconContainer}
@@ -601,7 +601,7 @@ class CalendarStrip extends Component {
 //               weekStartDate={this.state.weekStartDate}
 //               weekEndDate={this.state.weekEndDate}
 //               size={this.state.selectorSize}
-//             />
+//             /> */}
 
             <View onLayout={this.onLayout} style={styles.calendarDates}>
               {this.props.showDate ? (
@@ -610,8 +610,7 @@ class CalendarStrip extends Component {
                 this.renderHeader()
               )}
             </View>
-
-//             <WeekSelector
+{/* //             <WeekSelector
 //               controlDate={this.props.maxDate}
 //               iconComponent={this.props.rightSelector}
 //               iconContainerStyle={this.props.iconContainer}
@@ -622,7 +621,7 @@ class CalendarStrip extends Component {
 //               weekStartDate={this.state.weekStartDate}
 //               weekEndDate={this.state.weekEndDate}
 //               size={this.state.selectorSize}
-//             />
+//             /> */}
           </View>
 
           {this.props.showDate && this.props.calendarHeaderPosition === "below" &&
